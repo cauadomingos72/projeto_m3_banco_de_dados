@@ -107,3 +107,8 @@ CREATE TABLE emprestimos (
     FOREIGN KEY (livro_id) REFERENCES livros(id),
     FOREIGN KEY (cliente_id) REFERENCES clientes(id)
 );
+```sql
+
+a
+
+
