@@ -1,3 +1,6 @@
+//PROJETO M3 BANCO DE DADOS
+//ALUNO: CAUÃ DOMINGOS
+
 #include <stdio.h>  // Inclusão da biblioteca de entrada e saída padrão
 #include <stdlib.h> // Inclusão da biblioteca de funções utilitárias, como exit()
 #include <string.h> // Inclusão da biblioteca de manipulação de strings
