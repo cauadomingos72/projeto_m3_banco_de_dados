@@ -65,11 +65,30 @@ O sistema trabalha com as seguintes tabelas no MySQL:
 
 ---
 
+# Compilação e Execução do Sistema de Gerenciamento de Livraria
+
+Este guia descreve como compilar e executar os arquivos `criar_banco.c` e `admin.c`, que fazem parte do **Sistema de Gerenciamento de Livraria**.
+
+---
+
 ## **Pré-Requisitos**
 
-1. **MySQL Server** instalado e em execução.
-2. Biblioteca **MySQL C API** (inclusa no MySQL Connector C).
-3. Ambiente para compilar e executar programas em C, como GCC.
+1. **Compilador GCC/G++** instalado em seu sistema.
+2. **MySQL Server** instalado e configurado.
+3. Biblioteca **MySQL C API** disponível no MySQL Connector C:
+   - Inclua os diretórios de **include** e **lib** do MySQL na compilação.
+
+---
+
+## **Passo a Passo**
+
+### **1. Compilando e Executando `criar_banco.c`**
+
+O arquivo `criar_banco.c` é responsável por criar as tabelas necessárias no banco de dados MySQL.  
+
+#### **Comando para Compilar**
+```bash
+g++ criar_banco.c -o criar_banco -I'C:\Program Files\MySQL\MySQL Server 8.0\include' -L'C:\Program Files\MySQL\MySQL Server 8.0\lib' -lmysql
 
 ---
 
