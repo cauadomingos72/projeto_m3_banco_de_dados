@@ -107,8 +107,17 @@ CREATE TABLE emprestimos (
     FOREIGN KEY (livro_id) REFERENCES livros(id),
     FOREIGN KEY (cliente_id) REFERENCES clientes(id)
 );
-```sql
+```
+Também pode ser criado essas mesmas tabelas compilando o código C "criar_banco.c"
+```bash
+g++ criar_banco.c -o criar_banco -I'C:\Program Files\MySQL\MySQL Server 8.0\include' -L'C:\Program Files\MySQL\MySQL Server 8.0\lib' -lmysql
 
-a
+.\criar_banco.exe
+```
 
+2. **Compile e execute o Admin, para ter acesso ao bancod de dados**
+```bash
+g++ admin.c -o admin -I'C:\Program Files\MySQL\MySQL Server 8.0\include' -L'C:\Program Files\MySQL\MySQL Server 8.0\lib' -lmysql
 
+.\admin.exe
+```
