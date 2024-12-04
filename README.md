@@ -65,9 +65,9 @@ O sistema trabalha com as seguintes tabelas no MySQL:
 
 ## **Pré-Requisitos**
 
-1. **MySQL Server** instalado e em execução.
-2. Biblioteca **MySQL C API** (inclusa no MySQL Connector C).
-3. Ambiente para compilar e executar programas em C, como GCC.
+1. **MySQL Server** instalado e em execução. [Baixar MySQL Installer](https://dev.mysql.com/downloads/installer/)
+2. Biblioteca **MySQL C API** (inclusa no MySQL Connector C). [Baixar MySQL C API](https://downloads.mysql.com/archives/c-c/)
+3. Ambiente para compilar e executar programas em C, como GCC. [Baixar MinGW](https://sourceforge.net/projects/mingw/)
 
 ---
 
